@@ -1,0 +1,32 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 实验运行日志 ----------
+logs/
+*.log
+
+# ---------- 临时 / 冒烟测试输出（正式结果保留在 results/） ----------
+results_smoke*/
+results_diag*/
+results_tmp*/
+results_check*/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 项目工具缓存 ----------
+.codebuddy/
+jupyter/.ipynb_checkpoints/
+.ipynb_checkpoints/

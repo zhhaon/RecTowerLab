@@ -1,0 +1,11 @@
+# 统一文本换行，避免 Windows/Linux 协作时的无意义 diff
+* text=auto eol=lf
+
+# 数据集保持原样，禁止换行符转换（避免改变 u.data 等文件内容）
+ml-100k/* -text
+
+# 图片按二进制处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
